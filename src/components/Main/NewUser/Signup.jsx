@@ -1,19 +1,46 @@
 import React from "react";
-import { BsGoogle } from "react-icons/bs";
+import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import signin from "../../../assets/img/login/signin.png";
 
 function Signup() {
   return (
-    <div className="pt-4 h-screen max-w-6xl mx-auto">
-      <div class="flex justify-center items-center lg:pb-24  p-6 ">
-        <div class="flex flex-col gap-6 is-full rounded-3xl w-96 shadow-xl p-6 ">
+    <div className=" max-w-6xl mx-auto">
+      <div class="flex justify-around flex-wrap h-screen lg:pb-24 items-center p-6">
+        <div class="flex flex-col gap-6 rounded-3xl w-96 shadow-sm p-6 ">
           <div class="flex flex-col gap-1">
             <h4 class=" text-xl font-bold ">Adventure starts here 🚀</h4>
           </div>
-          <form novalidate="" autocomplete="off" class="flex flex-col gap-6">
+          <h2>Please sign-up to your account and start the adventure</h2>
+          <form novalidate="" autocomplete="off" class="flex flex-col gap-5">
+            <div class="flex justify-between items-center gap-1.5">
+              <button
+                type="button"
+                className="border w-1/2 flex justify-center items-center p-2"
+              >
+                <FcGoogle size={30} />
+              </button>
+              <button
+                type="button"
+                className="border w-1/2 flex justify-center items-center p-2"
+              >
+                <FaGithub size={30} />
+                <span class="MuiTouchRipple-root mui-w0pj6f"></span>
+              </button>
+            </div>
+            <div class="relative">
+              <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t border-gray-300"></div>
+              </div>
+              <div class="relative flex justify-center text-sm">
+                <span class="bg-white dark:bg-gray-700 px-2 text-gray-500 dark:text-white">
+                  OR
+                </span>
+              </div>
+            </div>
             <div>
-              <label>Username</label>
+              {/* <label>Username</label> */}
               <div>
                 <input
                   aria-invalid="false"
@@ -25,7 +52,7 @@ function Signup() {
               </div>
             </div>
             <div>
-              <label>Email</label>
+              {/* <label>Email</label> */}
               <div>
                 <input
                   aria-invalid="false"
@@ -37,7 +64,7 @@ function Signup() {
               </div>
             </div>
             <div>
-              <label>Password</label>
+              {/* <label>Password</label> */}
               <div>
                 <input
                   aria-invalid="false"
@@ -60,10 +87,7 @@ function Signup() {
                 </span>
               </Link>
             </label>
-            <button
-              class="border rounded-xl p-1 bg-blue-400"
-              type="submit"
-            >
+            <button class="border rounded-xl p-1 bg-blue-400" type="submit">
               Sign Up
             </button>
             <div class="flex justify-center items-center flex-wrap gap-2">
@@ -77,27 +101,9 @@ function Signup() {
                 </span>
               </Link>
             </div>
-            <div class="relative">
-              <div class="absolute inset-0 flex items-center">
-                <div class="w-full border-t border-gray-300"></div>
-              </div>
-              <div class="relative flex justify-center text-sm">
-                <span class="bg-white dark:bg-gray-700 px-2 text-gray-500 dark:text-white">
-                  Or continue with
-                </span>
-              </div>
-            </div>
-            <div class="flex justify-between items-center gap-1.5">
-              <button type="button" className="border w-1/2 flex justify-center items-center p-2">
-                <BsGoogle />
-              </button>
-              <button type="button" className="border w-1/2 flex justify-center items-center p-2">
-                <FaGithub />
-                <span class="MuiTouchRipple-root mui-w0pj6f"></span>
-              </button>
-            </div>
           </form>
         </div>
+        <img src={signin} alt="" className=""/>
       </div>
     </div>
   );

@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import Jobs from "./parts/Jobs";
 import CommunitySecond from "./parts/CommunitySecond";
 import BePartCommunity from "./parts/BePartCommunity";
-import { easeIn, easeInOut, motion } from "framer-motion";
-import fadeIn from "./Framer";
 
 export default function Community() {
   return (
@@ -16,13 +14,7 @@ export default function Community() {
       <div className="container pt-20 lg:max-w-6xl mx-auto">
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
-            <motion.div
-              variants={fadeIn("left", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.2 }}
-              className="flex flex-wrap w-full mb-10 justify-center"
-            >
+            <div className="flex flex-wrap w-full mb-10 justify-center">
               <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                 <h1 className="text-3xl mb-2 text-center text-gray-600 font-bold">
                   Tech Community
@@ -36,15 +28,9 @@ export default function Community() {
                   perfect place to connect, learn, and grow.
                 </p>
               </div>
-            </motion.div>
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              <motion.div
-                variants={fadeIn("right", 0.4)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.2 }}
-                className="bg-gray-100 p-4 md:p-6 rounded-lg mx-auto w-full md:w-3/4 flex flex-col justify-center items-center"
-              >
+              <div className="bg-gray-100 p-4 md:p-6 rounded-lg mx-auto w-full md:w-3/4 flex flex-col justify-center items-center">
                 <div className="w-48 h-48 md:w-60 md:h-60 overflow-hidden flex flex-1 items-center justify-center rounded-lg mb-6">
                   <img
                     alt="coding"
@@ -68,14 +54,8 @@ export default function Community() {
                 >
                   Join
                 </Link>
-              </motion.div>
-              <motion.div
-                variants={fadeIn("down", 0.4)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.2 }}
-                className="bg-gray-100 p-4 md:p-6 rounded-lg mx-auto w-full md:w-3/4 flex flex-col justify-center items-center"
-              >
+              </div>
+              <div className="bg-gray-100 p-4 md:p-6 rounded-lg mx-auto w-full md:w-3/4 flex flex-col justify-center items-center">
                 <div className="w-48 h-48 md:w-60 md:h-60 overflow-hidden flex flex-1 items-center justify-center rounded-lg mb-6">
                   <img
                     alt="coding"
@@ -100,14 +80,8 @@ export default function Community() {
                 >
                   Join
                 </Link>
-              </motion.div>
-              <motion.div
-                variants={fadeIn("left", 0.4)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{ once: false, amount: 0.2 }}
-                className="bg-gray-100 p-4 md:p-6 rounded-lg mx-auto w-full md:w-3/4 flex flex-col justify-center items-center"
-              >
+              </div>
+              <div className="bg-gray-100 p-4 md:p-6 rounded-lg mx-auto w-full md:w-3/4 flex flex-col justify-center items-center">
                 <div className="w-48 h-48 md:w-60 md:h-60 overflow-hidden flex flex-1 items-center justify-center rounded-lg mb-6">
                   <img
                     alt="coding"
@@ -133,7 +107,7 @@ export default function Community() {
                 >
                   Join
                 </Link>
-              </motion.div>
+              </div>
             </div>
           </div>
         </section>

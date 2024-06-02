@@ -34,7 +34,7 @@ export default function Features() {
           <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
             <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               <motion.div
-                variants={fadeIn("right", 0.1)}
+                variants={fadeIn("down", 0.1)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
@@ -53,7 +53,7 @@ export default function Features() {
                 </dd>
               </motion.div>
               <motion.div
-                variants={fadeIn("left", 0.1)}
+                variants={fadeIn("down", 0.1)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
@@ -72,7 +72,7 @@ export default function Features() {
                 </dd>
               </motion.div>
               <motion.div
-                variants={fadeIn("right", 0.1)}
+                variants={fadeIn("down", 0.1)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
@@ -92,7 +92,7 @@ export default function Features() {
                 </dd>
               </motion.div>
               <motion.div
-                variants={fadeIn("left", 0.1)}
+                variants={fadeIn("down", 0.1)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}

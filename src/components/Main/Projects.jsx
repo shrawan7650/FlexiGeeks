@@ -10,7 +10,7 @@ import {
 
 function Projects() {
   return (
-    <div class="min-h-dvh flex flex-col bg-indigo-50 text-blue-800 px-5 md:px-10 lg:px-20">
+    <div class="min-h-dvh flex flex-col bg-indigo-50 text-blue-800 md:px-10 lg:px-20">
       <main class="grow flex flex-col max-w-6xl mx-auto gap-20 lg:gap-24 justify-center items-center">
         <div class="space-y-10 md:space-y-12">
           <h1 class="text-2xl text-center md:text-5xl lg:text-6xl font-semibold flex flex-col items-center justify-center gap-2 md:gap-3">

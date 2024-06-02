@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Forgot() {
   return (
-    <div className=" pt-20 max-w-6xl h-screen  mx-auto">
-      <div class="flex justify-center lg:pb-24 items-center p-6 ">
+    <div className="max-w-6xl h-screen  mx-auto">
+      <div class="flex justify-center h-screen lg:pb-24 items-center p-6 ">
         <div class="flex flex-col gap-6 w-96 rounded-3xl p-6 shadow-xl is-full sm:auto md:full sm:max-[400px]">
           <div class="flex flex-col gap-1">
             <h4 class="text-lg">Forgot Password</h4>

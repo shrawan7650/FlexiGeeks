@@ -53,7 +53,7 @@ const Header = () => {
               </li>
             ))}
             <Link to="/login">
-              <button className="btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded-xl duration-500 md:static">
+              <button className="btn border-2 border-blue-400 hover:bg-blue-50 text-blue-800 md:ml-8 font-semibold px-3 py-0.5 rounded-3xl duration-500 md:static">
                 Get Started
               </button>
             </Link>

@@ -16,7 +16,7 @@ export default function HeaderSection() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.2 }}
-                className="lg:flex-grow  md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-black"
+                className="lg:flex-grow overflow-hidden  md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-black"
               >
                 <div>
                   <h1 className="title-display max-w-5xl tracking-tight sm:text-5xl mx-auto lg:text-4xl mb-5 font-semibold text-blue-800">
@@ -46,11 +46,11 @@ export default function HeaderSection() {
                 </div>
               </motion.div>
               <motion.div
-                variants={fadeIn("left", 0.3)}
+                variants={fadeIn("down", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.2 }}
-                className=" relative lg:max-w-lg lg:ml-3 md:w-1/2 w-5/6"
+                className=" relative overflow-hidden lg:max-w-lg lg:ml-3 md:w-1/2 w-5/6"
               >
                 <img src={Sider} alt="Sider" />
               </motion.div>
