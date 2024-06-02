@@ -52,7 +52,7 @@ function Login() {
               </Link>
             </div>
             <button
-              class="border rounded-xl p-1 bg-blue-400 w-48 mx-auto"
+              class="border rounded-xl p-1 bg-blue-400 "
               type="submit"
             >
               Login

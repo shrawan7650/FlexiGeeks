@@ -14,8 +14,8 @@ function Services() {
                 Lets Learn Together, Grow Together
               </button>
               <h1 className="mt-6 font-bold text-4xl md:text-5xl title-font mb-4 text-gray-900">
-                Loved by <span className="text-red-500">40,0000 +</span>{" "}
-                Engineers <br />
+                Loved by <span className="text-red-500">40,000+</span>{" "}
+                Students <br />
                 <span className="text-blue-500 md:mt-7">around the World</span>
               </h1>
               <p className="text-gray-500 text-base md:text-lg">

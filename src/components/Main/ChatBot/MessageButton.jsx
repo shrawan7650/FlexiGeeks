@@ -19,7 +19,7 @@
 // export default MessageButton;
 
 import React from "react";
-import ChatBot from "./ChatBot";
+import ChatBot from "./ChatBot.jsx";
 import { TbMessage2Code } from "react-icons/tb";
 
 function MessageButton() {

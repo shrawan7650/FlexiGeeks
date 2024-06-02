@@ -15,53 +15,11 @@ import cisco from "../../../assets/logo/company-name/cisco.png";
 export default function CompanySection() {
   return (
     <div className="max-w-6xl py-16 mx-auto">
-      {/* <div class="bg-white max-w-6xl mx-auto px-4 pt-16 pb-6" id="faq">
-        <h2 class="lg:text-4xl sm:text-lg font-bold text-blue-900 text-center">
-          Connect with Professionals who are at top Companies
-        </h2>
-        <div class="mx-auto w-full max-w-4xl bg-white justify-center items-center grid grid-cols-6 sm:grid-cols-3 md:grid-cols-6 gap-4">
-          <img
-            alt=""
-            class="h-20  mx-auto"
-            src={MS}
-          />
-
-          <img
-            alt=""
-            class="h-20  mx-auto"
-            src={orac}
-          />
-
-          <img
-            alt=""
-            class="h-10 lg:-ml-2 mx-auto"
-            src={google}
-          />
-
-          <img
-            alt=""
-            class="h-15 lg:-ml-8 mx-auto"
-            src={air}
-          />
-
-          <img
-            alt=""
-            class="mx-auto lg:-ml-4"
-            src={godaddy}
-          />
-
-          <img
-            alt=""
-            class="h-15  mx-auto"
-            src={asana}
-          />
-        </div>
-      </div> */}
       <motion.div
-       variants={fadeIn("right", 0.2)}
-       initial="hidden"
-       whileInView={"show"}
-       viewport={{ once: false, amount: 0.7 }}
+        variants={fadeIn("left", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
       >
         <h2 class="lg:text-4xl sm:text-lg py-10 font-bold text-blue-900 text-center">
           Connect with Professionals who are at top Companies

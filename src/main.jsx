@@ -12,7 +12,6 @@ import {
 } from "react-router-dom";
 import Home from "./components/Main/Home.jsx";
 import About from "./components/Main/About.jsx";
-import GetStarted from "./components/Main/parts/GetStarted.jsx";
 import ContactUs from "./components/Main/parts/ContactUs.jsx";
 import Community from "./components/Main/Community.jsx";
 import Services from "./components/Main/Services.jsx";
@@ -31,16 +30,15 @@ const route = createBrowserRouter(
         Outlet start
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="about" element={<About />} />
-        <Route path="getstarted" element={<GetStarted />} />
+        <Route path="about" element={<About />} />]
         <Route path="community" element={<Community />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="service" element={<Services />} />
         <Route path="memberform" element={<BecomeMember />} />
         {/* Login */}
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/forgot" element={<Forgot />} />
+        <Route path="login" element={<Login />} />
+        <Route path="signup" element={<Signup />} />
+        <Route path="forgot" element={<Forgot />} />
 
         {/* Footer */}
         <Route path="privacy" element={<Privacy />} />

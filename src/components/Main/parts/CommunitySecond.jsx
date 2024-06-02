@@ -5,6 +5,8 @@ import git from "../../../assets/img/git.webp";
 import resume from "../../../assets/img/resume.webp";
 import portfolio from "../../../assets/img/portfolio.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import fadeIn from "../Framer";
 
 function CommunitySecond() {
   return (
@@ -13,10 +15,22 @@ function CommunitySecond() {
         <section className="text-gray-600 body-font">
           <div className="container mx-auto rounded-lg lg:mt-10 flex flex-col md:flex-row items-center p-8 w-full">
             {" "}
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+            <motion.div
+              variants={fadeIn("right", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.2 }}
+              className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0"
+            >
               <img alt="hero" src={Img1} />
-            </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("left", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.2 }}
+              className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+            >
               <h1 className="text-3xl mb-4 font-medium text-gray-900">RGPL</h1>
               <p className="mb-8 leading-relaxed">
                 Stand out with the complete engineer's brand toolkit - RGPL by
@@ -41,7 +55,7 @@ function CommunitySecond() {
                   </button>
                 </Link>
               </div>
-            </div>
+            </motion.div>
           </div>
         </section>
       </div>

@@ -9,9 +9,7 @@ function Signup() {
       <div class="flex justify-center items-center lg:pb-24  p-6 ">
         <div class="flex flex-col gap-6 is-full rounded-3xl w-96 shadow-xl p-6 ">
           <div class="flex flex-col gap-1">
-            <h4 class=" text-xl font-bold ">
-              Adventure starts here 🚀
-            </h4>
+            <h4 class=" text-xl font-bold ">Adventure starts here 🚀</h4>
           </div>
           <form novalidate="" autocomplete="off" class="flex flex-col gap-6">
             <div>
@@ -58,11 +56,14 @@ function Signup() {
                 to="/privacy"
               >
                 <span class="bg-left-bottom bg-gradient-to-r text-sm from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
-                 Privacy &amp; Policy
+                  Privacy &amp; Policy
                 </span>
               </Link>
             </label>
-            <button class="border rounded-xl p-1 bg-blue-400 w-48 mx-auto" type="submit">
+            <button
+              class="border rounded-xl p-1 bg-blue-400"
+              type="submit"
+            >
               Sign Up
             </button>
             <div class="flex justify-center items-center flex-wrap gap-2">
@@ -76,15 +77,21 @@ function Signup() {
                 </span>
               </Link>
             </div>
-            <div class=" border-b-2" role="separator">
-              <span class=" flex items-center justify-center w-full">or</span>
+            <div class="relative">
+              <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t border-gray-300"></div>
+              </div>
+              <div class="relative flex justify-center text-sm">
+                <span class="bg-white dark:bg-gray-700 px-2 text-gray-500 dark:text-white">
+                  Or continue with
+                </span>
+              </div>
             </div>
-            <div class="flex justify-center items-center gap-1.5">
-              <button type="button">
+            <div class="flex justify-between items-center gap-1.5">
+              <button type="button" className="border w-1/2 flex justify-center items-center p-2">
                 <BsGoogle />
               </button>
-              <span class="MuiTouchRipple-root mui-w0pj6f">|</span>
-              <button type="button">
+              <button type="button" className="border w-1/2 flex justify-center items-center p-2">
                 <FaGithub />
                 <span class="MuiTouchRipple-root mui-w0pj6f"></span>
               </button>

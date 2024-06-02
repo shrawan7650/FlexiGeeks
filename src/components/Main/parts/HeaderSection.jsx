@@ -38,7 +38,7 @@ export default function HeaderSection() {
                   </p>
                 </div>
                 <div className="flex">
-                  <a href="/getstarted">
+                  <a href="/login">
                     <button className=" inline-flex text-blue-800 bg-blue-100 border- shadow-sm shadow-blue-500 border-blue-600 py-2 px-6  hover:bg-blue-300 rounded lg:text-lg">
                       Get Started
                     </button>
