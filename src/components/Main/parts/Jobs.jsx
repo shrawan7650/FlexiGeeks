@@ -40,7 +40,6 @@ export default function Jobs() {
                 width="500"
                 height="500"
                 class="object-cover object-center rounded"
-                // srcset="/_next/image?url=%2Fserviceimage.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fserviceimage.png&amp;w=1080&amp;q=75 2x"
                 src="https://static.vecteezy.com/system/resources/previews/024/280/310/non_2x/businessman-come-up-with-an-idea-businessman-climbing-ladder-from-light-bulb-idea-concept-free-png.png"
               />
             </div>

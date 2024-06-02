@@ -30,7 +30,7 @@ const route = createBrowserRouter(
         Outlet start
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="about" element={<About />} />]
+        <Route path="about" element={<About />} />
         <Route path="community" element={<Community />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="service" element={<Services />} />

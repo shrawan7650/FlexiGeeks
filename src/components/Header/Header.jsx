@@ -52,18 +52,11 @@ const Header = () => {
                 </Link>
               </li>
             ))}
-            <div>
-              <Link to="/login">
-                <button className="btn -mr-7 bg-gray-100 w-24 text-blue-900 md:ml-8 px-2 py-0.5 rounded-xl duration-500 md:static">
-                  Login
-                </button>
-              </Link>
-              <Link to="/signup">
-                <button className="btn border-blue-500 border-2  text-blue-700 w-24 md:ml-8 px-2 py-0.5 rounded-xl duration-500 md:static">
-                  Sign Up
-                </button>
-              </Link>
-            </div>
+            <Link to="/login">
+              <button className="btn bg-blue-600 text-white md:ml-8 font-semibold px-3 py-1 rounded-xl duration-500 md:static">
+                Get Started
+              </button>
+            </Link>
           </ul>
           {/* button */}
         </div>
