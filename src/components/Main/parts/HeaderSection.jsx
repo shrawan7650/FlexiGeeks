@@ -19,7 +19,7 @@ export default function HeaderSection() {
                 className="lg:flex-grow overflow-hidden  md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-black"
               >
                 <div>
-                  <h1 className="title-display max-w-5xl tracking-tight sm:text-5xl mx-auto lg:text-4xl mb-5 font-semibold text-blue-800">
+                  <h1 className="text-2xl title-display max-w-5xl tracking-tight sm:text-5xl mx-auto lg:text-4xl mb-5 font-semibold text-blue-800">
                     The Ultimate Hub for Aspiring Engineers.
                   </h1>
                 </div>

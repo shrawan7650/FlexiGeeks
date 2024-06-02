@@ -17,13 +17,13 @@ function Signup() {
             <div class="flex justify-between items-center gap-1.5">
               <button
                 type="button"
-                className="border w-1/2 flex justify-center items-center p-2"
+                className="border rounded-lg w-1/2 flex justify-center items-center p-2"
               >
                 <FcGoogle size={30} />
               </button>
               <button
                 type="button"
-                className="border w-1/2 flex justify-center items-center p-2"
+                className="border rounded-lg w-1/2 flex justify-center items-center p-2"
               >
                 <FaGithub size={30} />
                 <span class="MuiTouchRipple-root mui-w0pj6f"></span>

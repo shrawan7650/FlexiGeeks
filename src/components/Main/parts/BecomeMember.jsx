@@ -20,7 +20,6 @@ function BecomeMember() {
               </h1>
             </div>
           </div>
-
         </div>
         <div class="p-6 ">
           <form action="#">
@@ -37,10 +36,10 @@ function BecomeMember() {
               </div>
               <div class="col-span-6 sm:col-span-3">
                 <input
-                  type="text"
+                  type="number"
                   name="year"
                   id="year"
-                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                   placeholder="Year of Graduation"
                   required=""
                 />
@@ -60,7 +59,7 @@ function BecomeMember() {
                   type="number"
                   name="wp-no"
                   id="wp-no"
-                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                   placeholder="Whatsapp Number"
                   required=""
                 />
