@@ -4,141 +4,89 @@ import { RiContactsFill } from "react-icons/ri";
 
 function BecomeMember() {
   return (
-    <div>
-      <div class="max-w-6xl p-5 pt-28 mx-auto">
-        <div class="w-full p-5 rounded-3xl bg-blue-50">
-            <div className="text-center mt-5 -mb-16">
-              <span className=" bg-red-200 items-center rounded-3xl p-3 inline-block">
-                Questions? Feedback? Need Career Advice?
+    <div className="max-w-6xl mx-auto">
+      <div class="bg-white">
+        <div class="flex items-start justify-between p-5 border-b rounded-t">
+          <div class="w-full p-5 rounded-3xl bg-blue-50">
+            <div className="text-center mt-5">
+              <span className=" bg-white items-center rounded-3xl p-3 inline-block">
+                Contributor? Making projects? Need Career Advice?
               </span>
               <h1 className="m-6">
-                Just want to member ? As the top career community for engineers
-                worldwide, we are obsessed with providing exceptional support.
-                Whether you need guidance advancing your career, help with your
-                profile, or want to share suggestions, we have got your back.
+                As the top career community for engineers worldwide, we are
+                obsessed with providing exceptional support. Whether you need
+                guidance advancing your career, help with your profile, or want
+                to share suggestions, we have got your back.
               </h1>
             </div>
-          <div class=" md:col-span-4 text-center flex items-center justify-center p-5 text-black">
           </div>
-          <form class="md:col-span-8 p-10">
-            <div>
-              <div>
-                <div className=" w-11/12">
-                  <div class="flex flex-wrap ">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <div>
-                        <input
-                          class="appearance-none block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800 "
-                          id="grid-name"
-                          type="text"
-                          placeholder="Name"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap ">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <input
-                        class="appearance-none block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800"
-                        id="grid-email"
-                        type="email"
-                        placeholder="Email Id"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap ">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <input
-                        class="appearance-none block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800"
-                        id="grid-college"
-                        type="text"
-                        placeholder="Collage (with city)"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <input
-                        class="appearance-none block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800"
-                        id="grid-year"
-                        type="number"
-                        placeholder="Expected graduation year"
-                      />
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap ">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <input
-                        class="appearance-none block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800"
-                        id="grid-email"
-                        type="number"
-                        placeholder="+91 95××××××××( Whatsapp )"
-                      />
-                    </div>
-                  </div>
-                </div>
 
-                <div className="flex flex-wrap justify-between w-10/12 mx-auto items-center">
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <textarea
-                        rows="8"
-                        placeholder="Why do you wants to become member of flexigeeks ?"
-                        required
-                        class="appearance-none border block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-3">
-                      <label
-                        class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                        for="grid-password"
-                      ></label>
-                      <textarea
-                        rows="8"
-                        placeholder="Any Comment or Questions? (Not Mandatory)"
-                        class="appearance-none border block w-full text-gray-700 border-b-2 border-blue-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-wh focus:border-blue-800"
-                      ></textarea>
-                    </div>
-                  </div>
-                </div>
+        </div>
+        <div class="p-6 ">
+          <form action="#">
+            <div class="grid grid-cols-6 gap-6">
+              <div class="col-span-6 sm:col-span-3">
+                <input
+                  type="text"
+                  name="product-name"
+                  id="product-name"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                  placeholder="Name"
+                  required=""
+                />
               </div>
-
-              <div class="flex justify-center w-full px-3">
-                <button
-                  class="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
-                  type="submit"
+              <div class="col-span-6 sm:col-span-3">
+                <input
+                  type="text"
+                  name="year"
+                  id="year"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                  placeholder="Year of Graduation"
+                  required=""
+                />
+              </div>
+              <div class="col-span-6 sm:col-span-3">
+                <input
+                  type="text"
+                  name="collage"
+                  id="collage"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                  placeholder="Collage name and State"
+                  required=""
+                />
+              </div>
+              <div class="col-span-6 sm:col-span-3">
+                <input
+                  type="number"
+                  name="wp-no"
+                  id="wp-no"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                  placeholder="Whatsapp Number"
+                  required=""
+                />
+              </div>
+              <div class="col-span-full">
+                <label
+                  for="product-details"
+                  class="text-sm font-medium text-gray-900 block mb-2"
                 >
-                  Send Message
-                </button>
+                  Message
+                </label>
+                <textarea
+                  id="product-details"
+                  rows="6"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-4"
+                  placeholder="Why you join FlexiGeeks?"
+                ></textarea>
               </div>
             </div>
           </form>
+          <button
+            class="text-white mt-3 bg-blue-500 hover:bg-blue-300 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 flex justify-center items-center w-full py-2.5 text-center"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
       </div>
     </div>

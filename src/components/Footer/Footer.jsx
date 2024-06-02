@@ -8,11 +8,12 @@ import {
 import { FaTelegram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo/flexigeeks.png";
-import Privacy from "./parts/Privacy";
 
 const Footer = () => {
+
+
   return (
-    <div className=" bg-zinc-50 border-t-2 border-t-gray-400 max-w-full ">
+    <div className=" bg-gray-50 max-w-full ">
       <div className="mx-auto   max-w-6xl py-8 mt-7 px-3 grid lg:grid-cols-3 gap-7 text-gray-500">
         <div>
           <Link to="/">

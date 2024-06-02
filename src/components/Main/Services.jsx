@@ -7,7 +7,7 @@ function Services() {
     <div>
       {/* First start */}
       <div className="">
-        <section className="text-gray-600 body-font max-w-6xl mx-auto pt-16">
+        <section className="text-gray-600 body-font max-w-6xl mx-auto">
           <div className="container px-5 md:py-24 pb-10 mx-auto">
             <div className="flex flex-col text-center mt-14 w-full mb-10 md:mb-20">
               <button className="flex mx-auto mt-5 text-gray-500 bg-white rounded-lg border-0 py-1 px-2 text-xl md:text-2xl">
@@ -35,7 +35,7 @@ function Services() {
 
       {/* Second Start */}
       <div className="lg:mb-9">
-        <div class="container relative py-5 lg:rounded-3xl flex flex-col justify-between bg-blue-50 h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+        <div class="container relative py-5 lg:rounded-3xl flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
           <h2 class="mb-1 text-3xl font-extrabold leading-tight text-center p-10 text-gray-900">
             Here is a few of the awesome Services we provide.
           </h2>

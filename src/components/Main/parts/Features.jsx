@@ -4,12 +4,22 @@ import Img2 from "../../../assets/logo/interview.png";
 import Img3 from "../../../assets/logo/network.png";
 import Img4 from "../../../assets/logo/group-chat.png";
 
+// Framer
+import { easeIn, easeInOut, motion } from "framer-motion";
+import fadeIn from "../Framer";
+
 export default function Features() {
   return (
-    <div className="overflow-hidden max-w-6xl  mx-auto">
-      <div class=" lg:mt-24 bg-slate-50 sm:-mt-9 mt-4 mx-auto py-24 rounded-3xl sm:py-32">
+    <div className="overflow-hidden bg-blue-50 ">
+      <div class=" mx-auto py-24 max-w-6xl">
         <div class="mx-auto max-w-6xl px-4 -mt-5 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:text-center">
+          <motion.div
+            variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            class="mx-auto max-w-2xl lg:text-center"
+          >
             <h2 class=" text-3xl font-semibold leading-7 text-indigo-600">
               Features
             </h2>
@@ -20,10 +30,16 @@ export default function Features() {
               networking opportunities, customized alerts, and top-notch
               security.
             </p>
-          </div>
+          </motion.div>
           <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
             <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-              <div class="relative pl-16">
+              <motion.div
+                variants={fadeIn("right", 0.1)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                class="relative pl-16"
+              >
                 <dt class="text-base font-semibold leading-7 text-gray-900">
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100">
                     <img src={Img1} alt="" />
@@ -35,11 +51,17 @@ export default function Features() {
                   various industries. Our platform curates high-quality job
                   postings tailored to your expertise and career aspirations.
                 </dd>
-              </div>
-              <div class="relative pl-16">
+              </motion.div>
+              <motion.div
+                variants={fadeIn("left", 0.1)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                class="relative pl-16"
+              >
                 <dt class="text-base font-semibold leading-7 text-gray-900">
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100">
-                  <img src={Img2} alt=""/>
+                    <img src={Img2} alt="" />
                   </div>
                   Expert Career Advice
                 </dt>
@@ -48,11 +70,17 @@ export default function Features() {
                   resume tips, and interview preparation guides. Our expert
                   advice helps you navigate the job market with confidence.
                 </dd>
-              </div>
-              <div class="relative pl-16">
+              </motion.div>
+              <motion.div
+                variants={fadeIn("right", 0.1)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                class="relative pl-16"
+              >
                 <dt class="text-base font-semibold leading-7 text-gray-900">
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100">
-                  <img src={Img3} alt="" />
+                    <img src={Img3} alt="" />
                   </div>
                   Networking Opportunities
                 </dt>
@@ -62,11 +90,17 @@ export default function Features() {
                   Build relationships that can lead to exciting career
                   advancements.
                 </dd>
-              </div>
-              <div class="relative pl-16">
+              </motion.div>
+              <motion.div
+                variants={fadeIn("left", 0.1)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                class="relative pl-16"
+              >
                 <dt class="text-base font-semibold leading-7 text-gray-900">
                   <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100">
-                  <img src={Img4} alt="" />
+                    <img src={Img4} alt="" />
                   </div>
                   1:1 Career Guidance
                 </dt>
@@ -76,7 +110,7 @@ export default function Features() {
                   plans, ongoing support, networking and job search strategies,
                   and confidence building.
                 </dd>
-              </div>
+              </motion.div>
             </dl>
           </div>
         </div>

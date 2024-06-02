@@ -6,7 +6,7 @@ import Faq from "./parts/Faq";
 
 export default function About() {
   return (
-    <div className="pt-20 lg:pb-4">
+    <div className="lg:pb-4">
       <section class=" mx-auto bg-blue-50 lg:rounded-3xl lg:mt-4 max-w-6xl px-10">
         <section class="text-gray-600 body-font">
           <div className="text-center w-full font-bold text-3xl pt-16 pb-3">

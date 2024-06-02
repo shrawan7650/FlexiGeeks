@@ -4,18 +4,17 @@ import Jobs from "./parts/Jobs";
 import HeaderSection from "./parts/HeaderSection";
 import CompanySection from "./parts/CompanySection";
 import Testinomial from "./parts/Testinomial";
-import Newslater from "./parts/Newslater";
+import Newsletter from "./parts/Newsletter";
+import MessageButton from "./ChatBot/MessageButton";
 
 export default function Home() {
   return (
     <>
-    
       {/* Header section */}
       <HeaderSection />
 
       {/* Sections */}
       <CompanySection />
-
       {/* features */}
       <Features />
 
@@ -23,7 +22,10 @@ export default function Home() {
       <Testinomial />
 
       {/* Newslater */}
-      <Newslater />
+      <Newsletter />
+
+      {/* Message Bot */}
+      <MessageButton/>
     </>
   );
 }

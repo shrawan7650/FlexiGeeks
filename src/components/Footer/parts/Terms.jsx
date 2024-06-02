@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Terms() {
   return (
-    <div>
-      <div class="terms-of-service bg-gray-100 p-8">
+    <div className="max-w-6xl mx-auto p-3">
+      <div class="terms-of-service rounded-3xl bg-gray-100 p-8">
         <h1 class="text-3xl font-bold mb-6">Terms of Service</h1>
         <section class="mb-8">
           <h2 class="text-2xl font-bold mb-2">Acceptance of Terms</h2>
@@ -82,7 +83,7 @@ function Terms() {
         <section class="mb-8">
           <h2 class="text-2xl font-bold mb-2">Indemnification</h2>
           <p class="mb-4">
-            You agree to indemnify and hold harmless [Your Company Name] and its
+            You agree to indemnify and hold harmless FlexiGeeks and its
             affiliates from any claims, damages, liabilities, costs, or expenses
             arising out of your use of our website or services or your violation
             of these Terms.
@@ -101,7 +102,7 @@ function Terms() {
           <h2 class="text-2xl font-bold mb-2">Governing Law</h2>
           <p class="mb-4">
             These Terms shall be governed by and construed in accordance with
-            the laws of [Your Country/State], without regard to its conflict of
+            the laws of India, without regard to its conflict of
             law provisions.
           </p>
         </section>
@@ -109,9 +110,9 @@ function Terms() {
           <h2 class="text-2xl font-bold mb-2">Contact Us</h2>
           <p class="mb-4">
             If you have any questions or concerns about these Terms, please
-            contact us at [Contact Email Address].
+            contact us at <Link className="text-blue-600" to="mailto:flexi.geeks001@gmail.com">flexi.geeks001@gmail.com</Link>.
           </p>
-          <p class="mb-4">Thank you for using [Your Website Name]!</p>
+          <p class="mb-4">Thank you for using FlexiGeeks!</p>
         </section>
       </div>
     </div>

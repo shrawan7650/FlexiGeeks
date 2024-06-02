@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Privacy() {
   return (
-    <div>
-      <div class="privacy-policy bg-gray-100 p-8">
+    <div className="max-w-6xl mx-auto p-3">
+      <div class="privacy-policy bg-gray-100 rounded-2xl p-10">
         <h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
         <section class="mb-8">
           <h2 class="text-2xl font-bold mb-2">Information We Collect</h2>
@@ -59,10 +60,10 @@ function Privacy() {
           <p class="mb-4">
             If you have any questions, concerns, or requests regarding this
             Privacy Policy or our handling of your information, please contact
-            us at [Contact Email Address].
+            us at <Link className="text-blue-600" to="mailto:flexi.geeks001@gmail.com">flexi.geeks001@gmail.com</Link>.
           </p>
           <p class="mb-4">Thank you for trusting us with your information.</p>
-          <p>Lets-Code</p>
+          <p>FlexiGeeks</p>
         </section>
       </div>
     </div>

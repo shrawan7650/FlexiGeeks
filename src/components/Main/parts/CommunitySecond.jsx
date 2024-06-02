@@ -11,7 +11,7 @@ function CommunitySecond() {
     <div>
       <div>
         <section className="text-gray-600 body-font">
-          <div className="container mx-auto rounded-lg bg-blue-50 lg:mt-10 flex flex-col md:flex-row items-center p-8 w-full">
+          <div className="container mx-auto rounded-lg lg:mt-10 flex flex-col md:flex-row items-center p-8 w-full">
             {" "}
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
               <img alt="hero" src={Img1} />

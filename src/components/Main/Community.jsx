@@ -5,11 +5,13 @@ import Img3 from "../../assets/img/dsa.png";
 import { Link } from "react-router-dom";
 import Jobs from "./parts/Jobs";
 import CommunitySecond from "./parts/CommunitySecond";
+import BePartCommunity from "./parts/BePartCommunity";
 
 export default function Community() {
   return (
     <div>
-      <div className="container pt-10 lg:max-w-6xl mx-auto">
+      <BePartCommunity />
+      <div className="container pt-20 lg:max-w-6xl mx-auto">
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap w-full mb-10 justify-center">
