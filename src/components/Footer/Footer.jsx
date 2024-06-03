@@ -66,7 +66,7 @@ const Footer = () => {
                 <Link to="/about"> About</Link>
               </li>
               <li className="py-1 text-sm cursor-pointer lg:hover:font-bold hover:text-black">
-                Blog
+                <Link to="/countributer">Blog</Link>
               </li>
               <li className="py-1 text-sm cursor-pointer lg:hover:font-bold hover:text-black">
                 Jobs

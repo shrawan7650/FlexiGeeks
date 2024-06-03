@@ -86,7 +86,7 @@ function Login() {
               className="border rounded-xl p-1 bg-blue-400 "
               type="submit"
             >
-              Login
+              Sign In
             </button>
             <div className="flex justify-center items-center flex-wrap gap-2">
               <p className="">New on our Platform ?</p>
