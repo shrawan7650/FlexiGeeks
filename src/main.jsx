@@ -22,7 +22,7 @@ import Terms from "./components/Footer/parts/Terms.jsx";
 import Login from "./components/Main/NewUser/Login.jsx";
 import Signup from "./components/Main/NewUser/Signup.jsx";
 import Forgot from "./components/Main/NewUser/Forgot.jsx";
-import OurContributer from "./components/Main/parts/OurContributer.jsx";
+import Dashboard from "./components/Main/Profile/Dashboard.jsx";
 
 const route = createBrowserRouter(
   createRoutesFromElements(
@@ -36,11 +36,11 @@ const route = createBrowserRouter(
         <Route path="contact" element={<ContactUs />} />
         <Route path="service" element={<Services />} />
         <Route path="memberform" element={<BecomeMember />} />
-        <Route path="countributer" element={<OurContributer />} />
         {/* Login */}
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
         <Route path="forgot" element={<Forgot />} />
+        <Route path="f" element={<Dashboard />} />
 
         {/* Footer */}
         <Route path="privacy" element={<Privacy />} />

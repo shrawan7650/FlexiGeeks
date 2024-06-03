@@ -55,7 +55,7 @@ const Footer = () => {
                 Commerce
               </li>
               <li className="py-1 text-sm hover:text-black lg:hover:font-bold cursor-pointer">
-                Insights
+                <Link to="f">Dash</Link>
               </li>
             </ul>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <Link to="/about"> About</Link>
               </li>
               <li className="py-1 text-sm cursor-pointer lg:hover:font-bold hover:text-black">
-                <Link to="/countributer">Blog</Link>
+                Blog
               </li>
               <li className="py-1 text-sm cursor-pointer lg:hover:font-bold hover:text-black">
                 Jobs
