@@ -6,21 +6,21 @@ import Faq from "./parts/Faq";
 
 export default function About() {
   return (
-    <div className="lg:pb-4">
-      <section class=" mx-auto bg-blue-50 lg:rounded-3xl lg:mt-4 max-w-6xl px-10">
-        <section class="text-gray-600 body-font">
-          <div className="text-center w-full font-bold text-3xl pt-16 pb-3">
+    <div   className="lg:pb-4">
+      <section  className=" mx-auto bg-blue-50 lg:rounded-3xl lg:mt-4 max-w-6xl px-10">
+        <section  className="text-gray-600 body-font">
+          <div   className="text-center w-full font-bold text-3xl pt-16 pb-3">
             <h1>About Us</h1>
           </div>
-          <div class="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
-            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 class=" text-lg mb-4  text-gray-900">
+          <div  className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
+            <div  className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1  className=" text-lg mb-4  text-gray-900">
                 At FlexiGeeks , we are dedicated to empowering individuals in
                 their tech journey by providing free study materials and job
                 updates. Our mission is to make quality tech education
                 accessible to everyone, regardless of their background or
                 financial constraints.
-                <br class="hidden lg:inline-block" />
+                <br  className="hidden lg:inline-block" />
                 <p>
                   <br />
                   We understand the importance of staying up-to-date with the
@@ -30,7 +30,7 @@ export default function About() {
                   science, artificial intelligence, and beyond.
                 </p>
               </h1>
-              <p class="text-lg mb-4  text-gray-900">
+              <p  className="text-lg mb-4  text-gray-900">
                 <b>
                   We also help students improve their resumes, LinkedIn
                   profiles, and GitHub profiles. So don't wait, reach out to us
@@ -38,31 +38,31 @@ export default function About() {
                 </b>
               </p>
             </div>
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <div   className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img
                 alt="hero"
                 width="500"
-                class="object-cover object-center rounded w-full "
+                  className="object-cover object-center rounded w-full "
                 src={Img1}
               />
             </div>
           </div>
         </section>
-        <div class="flex flex-col items-center justify-center">
-          <div class="flex flex-col items-center gap-y-4 pb-20 md:flex-row">
-            <div class="space-y-6 text-center md:text-left">
-              <span className="text-xlbold text-3xl flex justify-center items-center mb-16">
+        <div   className="flex flex-col items-center justify-center">
+          <div   className="flex flex-col items-center gap-y-4 pb-20 md:flex-row">
+            <div   className="space-y-6 text-center md:text-left">
+              <span   className="text-xlbold text-3xl flex justify-center items-center mb-16">
                 Become a contibuter &nbsp;
                 <Link to="https://github.com/flexigeekshub">
                   <IoLogoGithub />
                 </Link>
               </span>
 
-              <p class="text-sm font-semibold md:text-base">Join our team →</p>
-              <p class="text-3xl font-bold md:text-4xl">
+              <p  className="text-sm font-semibold md:text-base">Join our team →</p>
+              <p  className="text-3xl font-bold md:text-4xl">
                 We're just getting started
               </p>
-              <p class="text-base text-gray-600 md:text-lg">
+              <p  className="text-base text-gray-600 md:text-lg">
                 Our philosophy is simple — hire a team of diverse, passionate
                 people and foster a culture that empowers you to do your best
                 work.
@@ -70,7 +70,7 @@ export default function About() {
               <Link to="/contact">
                 <button
                   type="button"
-                  class="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-3 focus-visible:outline-black"
+                   className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 mt-3 focus-visible:outline-black"
                 >
                   Coming Soon
                 </button>

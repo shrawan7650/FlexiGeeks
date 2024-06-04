@@ -6,35 +6,35 @@ import signin from "../../../assets/img/login/signin.png";
 
 function Signup() {
   return (
-    <div className=" max-w-6xl mx-auto">
-      <div class="flex justify-around flex-wrap h-screen lg:pb-24 items-center p-6">
-        <div class="flex flex-col gap-6 rounded-3xl w-96 shadow-sm p-6 ">
-          <div class="flex flex-col gap-1">
-            <h4 class=" text-xl font-bold ">Adventure starts here 🚀</h4>
+    <div   className=" max-w-6xl mx-auto">
+      <div  className="flex justify-around flex-wrap h-screen lg:pb-24 items-center p-6">
+        <div  className="flex flex-col gap-6 rounded-3xl w-96 shadow-sm p-6 ">
+          <div  className="flex flex-col gap-1">
+            <h4  className=" text-xl font-bold ">Adventure starts here 🚀</h4>
           </div>
           <h2>Please sign-up to your account and start the adventure</h2>
-          <form novalidate="" autocomplete="off" class="flex flex-col gap-5">
-            <div class="flex justify-between items-center gap-1.5">
+          <form novalidate="" autocomplete="off"  className="flex flex-col gap-5">
+            <div  className="flex justify-between items-center gap-1.5">
               <button
                 type="button"
-                className="border rounded-lg w-1/2 flex justify-center items-center p-2"
+                  className="border rounded-lg w-1/2 flex justify-center items-center p-2"
               >
                 <FcGoogle size={30} />
               </button>
               <button
                 type="button"
-                className="border rounded-lg w-1/2 flex justify-center items-center p-2"
+                  className="border rounded-lg w-1/2 flex justify-center items-center p-2"
               >
                 <FaGithub size={30} />
-                <span class="MuiTouchRipple-root mui-w0pj6f"></span>
+                <span  className="MuiTouchRipple-root mui-w0pj6f"></span>
               </button>
             </div>
-            <div class="relative">
-              <div class="absolute inset-0 flex items-center">
-                <div class="w-full border-t border-gray-300"></div>
+            <div  className="relative">
+              <div  className="absolute inset-0 flex items-center">
+                <div  className="w-full border-t border-gray-300"></div>
               </div>
-              <div class="relative flex justify-center text-sm">
-                <span class="bg-white dark:bg-gray-700 px-2 text-gray-500 dark:text-white">
+              <div  className="relative flex justify-center text-sm">
+                <span  className="bg-white dark:bg-gray-700 px-2 text-gray-500 dark:text-white">
                   OR
                 </span>
               </div>
@@ -46,7 +46,7 @@ function Signup() {
                   aria-invalid="false"
                   id=":r3:"
                   placeholder="Enter your username"
-                  class="w-full p-1 rounded-lg text-lg border"
+                   className="w-full p-1 rounded-lg text-lg border"
                   type="text"
                 />
               </div>
@@ -58,7 +58,7 @@ function Signup() {
                   aria-invalid="false"
                   id=":r4:"
                   placeholder="Enter your email"
-                  class="w-full p-1 rounded-lg text-lg border"
+                   className="w-full p-1 rounded-lg text-lg border"
                   type="text"
                 />
               </div>
@@ -70,40 +70,40 @@ function Signup() {
                   aria-invalid="false"
                   id=":r5:"
                   placeholder="············"
-                  class="w-full p-1 rounded-lg text-lg border"
+                   className="w-full p-1 rounded-lg text-lg border"
                   type="password"
                 />
               </div>
             </div>
             <label>
               <input data-indeterminate="false" type="checkbox" />
-              <span className="pl-2">I agree to </span>
+              <span   className="pl-2">I agree to </span>
               <Link
-                className="group text-blue-400 transition-all duration-100 ease-in-out"
+                  className="group text-blue-400 transition-all duration-100 ease-in-out"
                 to="/privacy"
               >
-                <span class="bg-left-bottom bg-gradient-to-r text-sm from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                <span  className="bg-left-bottom bg-gradient-to-r text-sm from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
                   Privacy &amp; Policy
                 </span>
               </Link>
             </label>
-            <button class="border rounded-xl p-1 bg-blue-400" type="submit">
+            <button  className="border rounded-xl p-1 bg-blue-400" type="submit">
               Sign Up
             </button>
-            <div class="flex justify-center items-center flex-wrap gap-2">
-              <p class="">Already have an account?</p>
+            <div  className="flex justify-center items-center flex-wrap gap-2">
+              <p  className="">Already have an account?</p>
               <Link
-                className="group text-blue-400 transition-all duration-100 ease-in-out"
+                  className="group text-blue-400 transition-all duration-100 ease-in-out"
                 to="/login"
               >
-                <span class="bg-left-bottom bg-gradient-to-r text-sm from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                <span  className="bg-left-bottom bg-gradient-to-r text-sm from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
                   Sign in instead
                 </span>
               </Link>
             </div>
           </form>
         </div>
-        <img src={signin} alt="" className=""/>
+        <img src={signin} alt=""   className=""/>
       </div>
     </div>
   );

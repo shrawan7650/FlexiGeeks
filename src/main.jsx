@@ -23,6 +23,9 @@ import Login from "./components/Main/NewUser/Login.jsx";
 import Signup from "./components/Main/NewUser/Signup.jsx";
 import Forgot from "./components/Main/NewUser/Forgot.jsx";
 import Dashboard from "./components/Main/Profile/Dashboard.jsx";
+import ProfileDash from "./components/Main/Profile/components/ProfileDash.jsx";
+import Achievments from "./components/Main/Profile/components/Achievments.jsx";
+import Setting from "./components/Main/Profile/components/Setting.jsx";
 
 const route = createBrowserRouter(
   createRoutesFromElements(
@@ -40,11 +43,17 @@ const route = createBrowserRouter(
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
         <Route path="forgot" element={<Forgot />} />
-        <Route path="f" element={<Dashboard />} />
-
+        {/* <Route path="f" element={<Dashboard />} /> */}
         {/* Footer */}
         <Route path="privacy" element={<Privacy />} />
         <Route path="terms" element={<Terms />} />
+        
+        {/* Profile */}
+        <Route path="f" element={<Dashboard />}>
+          <Route path="Profile" element={<ProfileDash />} />
+          <Route path="Achievment" element={<Achievments />} />
+          <Route path="Setting" element={<Setting />} />
+        </Route>
         {/* Outlet end */}
       </Route>
     </>

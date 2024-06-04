@@ -14,8 +14,8 @@ function Services() {
                 Lets Learn Together, Grow Together
               </button>
               <h1 className="mt-6 font-bold text-4xl md:text-5xl title-font mb-4 text-gray-900">
-                Loved by <span className="text-red-500">40,000+</span>{" "}
-                Students <br />
+                Loved by <span className="text-red-500">40,000+</span> Students{" "}
+                <br />
                 <span className="text-blue-500 md:mt-7">around the World</span>
               </h1>
               <p className="text-gray-500 text-base md:text-lg">
@@ -35,23 +35,23 @@ function Services() {
 
       {/* Second Start */}
       <div className="lg:mb-9">
-        <div class="container relative py-5 lg:rounded-3xl flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-          <h2 class="mb-1 text-3xl font-extrabold leading-tight text-center p-10 text-gray-900">
+        <div className="container relative py-5 lg:rounded-3xl flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+          <h2 className="mb-1 text-3xl font-extrabold leading-tight text-center p-10 text-gray-900">
             Here is a few of the awesome Services we provide.
           </h2>
-          <div class="w-full lg:ml-4">
-            <div class="flex flex-col w-full mb-5 sm:flex-row">
-              <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                <div class="relative h-full ml-0 mr-0 sm:mr-10">
-                  <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"></span>
-                  <div class="relative h-full p-5 bg-white border-2 rounded-lg">
-                    <div class="flex items-center -mt-1">
-                      <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">
+          <div className="w-full lg:ml-4">
+            <div className="flex flex-col w-full mb-5 sm:flex-row">
+              <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
+                <div className="relative h-full ml-0 mr-0 sm:mr-10">
+                  <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"></span>
+                  <div className="relative h-full p-5 bg-white border-2 rounded-lg">
+                    <div className="flex items-center -mt-1">
+                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
                         Webinar
                       </h3>
                     </div>
 
-                    <p class="mb-2 text-gray-600">
+                    <p className="mb-2 text-gray-600">
                       Attend our live webinars to learn from industry experts,
                       stay updated on the latest trends, and gain valuable
                       insights on various tech topics.
@@ -59,17 +59,17 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                <div class="relative h-full ml-0 mr-0 sm:mr-10">
-                  <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"></span>
-                  <div class="relative h-full p-5 bg-white border-2 rounded-lg">
-                    <div class="flex items-center -mt-1">
-                      <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">
+              <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
+                <div className="relative h-full ml-0 mr-0 sm:mr-10">
+                  <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"></span>
+                  <div className="relative h-full p-5 bg-white border-2 rounded-lg">
+                    <div className="flex items-center -mt-1">
+                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
                         Community
                       </h3>
                     </div>
 
-                    <p class="mb-2 text-gray-600">
+                    <p className="mb-2 text-gray-600">
                       Join our vibrant community where tech enthusiasts connect,
                       share knowledge, and collaborate on exciting projects and
                       discussions.
@@ -77,17 +77,17 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div class="w-full sm:w-1/2">
-                <div class="relative h-full ml-0 md:mr-10">
-                  <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"></span>
-                  <div class="relative h-full p-5 bg-white border-2 rounded-lg">
-                    <div class="flex items-center -mt-1">
-                      <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">
+              <div className="w-full sm:w-1/2">
+                <div className="relative h-full ml-0 md:mr-10">
+                  <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 rounded-lg"></span>
+                  <div className="relative h-full p-5 bg-white border-2 rounded-lg">
+                    <div className="flex items-center -mt-1">
+                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
                         Providing jobs resources
                       </h3>
                     </div>
 
-                    <p class="mb-2 text-gray-600">
+                    <p className="mb-2 text-gray-600">
                       Access a wide range of job resources, including listings,
                       career advice, and resume-building tips to help you land
                       your dream job in tech.
@@ -96,18 +96,18 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div class="flex flex-col mb-10 sm:flex-row">
-              <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                <div class="relative h-full ml-0 mr-0 sm:mr-10">
-                  {/* <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1  rounded-lg"></span> */}
-                  <div class="relative h-full p-5 bg-white border-2 rounded-lg">
-                    <div class="flex items-center -mt-1">
-                      <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">
+            <div className="flex flex-col mb-10 sm:flex-row">
+              <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
+                <div className="relative h-full ml-0 mr-0 sm:mr-10">
+                  {/* <span  className="absolute top-0 left-0 w-full h-full mt-1 ml-1  rounded-lg"></span> */}
+                  <div className="relative h-full p-5 bg-white border-2 rounded-lg">
+                    <div className="flex items-center -mt-1">
+                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
                         1:1 Sessions (Comming Soon)
                       </h3>
                     </div>
 
-                    <p class="mb-2 text-gray-600">
+                    <p className="mb-2 text-gray-600">
                       Get personalized guidance and mentorship through our
                       one-on-one sessions with experienced professionals,
                       tailored to your specific needs and goals.
@@ -115,17 +115,17 @@ function Services() {
                   </div>
                 </div>
               </div>
-              <div class="w-full sm:w-1/2">
-                <div class="relative h-full ml-0 md:mr-10">
-                  <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1  rounded-lg"></span>
-                  <div class="relative h-full p-5 bg-white border-2  rounded-lg">
-                    <div class="flex items-center -mt-1">
-                      <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">
+              <div className="w-full sm:w-1/2">
+                <div className="relative h-full ml-0 md:mr-10">
+                  <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1  rounded-lg"></span>
+                  <div className="relative h-full p-5 bg-white border-2  rounded-lg">
+                    <div className="flex items-center -mt-1">
+                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
                         Freelancing (Comming soon)
                       </h3>
                     </div>
 
-                    <p class="mb-2 text-gray-600">
+                    <p className="mb-2 text-gray-600">
                       Explore freelancing opportunities through our platform,
                       connect with clients, and build a successful freelance
                       career with our support and resources.

@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaWhatsapp,
+  FaDiscord,
 } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa6";
 import { Link } from "react-router-dom";
@@ -27,8 +28,8 @@ const Footer = () => {
             <Link to="https://github.com/flexigeekshub">
               <FaGithubSquare size={30} className="hover:text-black" />
             </Link>
-            <Link to="https://chat.whatsapp.com/EEvPBUvIeziKx1cnzjPbga">
-              <FaWhatsapp size={30} className="hover:text-green-700" />
+            <Link to="https://discord.gg/eCW3MsRxNE">
+              <FaDiscord size={30} className="hover:text-blue-700" />
             </Link>
             <Link to="https://www.instagram.com/flexi.geeks">
               <FaInstagram size={30} className="hover:text-orange-600" />
@@ -55,7 +56,7 @@ const Footer = () => {
                 Commerce
               </li>
               <li className="py-1 text-sm hover:text-black lg:hover:font-bold cursor-pointer">
-                <Link to="f">Dash</Link>
+                <Link to="f/Profile">Dash</Link>
               </li>
             </ul>
           </div>
@@ -93,7 +94,6 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center items-center py-5 text-cyan-700 max-w-6xl border-t-2 border-t-gray-400 mx-auto">
-        {" "}
         Copyright &copy; 2024 &nbsp;<Link to="/">FlexiGeeks</Link>&nbsp; | All
         Right Reserved.
       </div>
